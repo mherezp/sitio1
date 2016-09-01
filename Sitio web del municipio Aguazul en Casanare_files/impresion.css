@@ -1,0 +1,135 @@
+
+/* CSS Document */
+
+* {font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CSS IMPRESION */
+
+body {background:#FFF !important;}
+#header_texto {border-bottom: #333 1px dotted; padding-bottom:15px;}
+#titulos_municipio h1 {font-size:20px !important; margin-bottom:5px;}
+#titulo_sitio h2 {margin-top:5px;}
+#escudos_texto {height:90px !important;}
+#redes_sociales_texto ul {display:none !important;}
+#escudo_gobierno {display:none;}
+#escudo_municipio img {width:10%; margin-right:30px; margin-left:50px;}
+#miga_de_pan {display:none;}
+#foto_municipio {display:none;}
+#menu2 {display:none;}
+#container {height:1800px !important; clear:both !important; position:relative !important; overflow:auto !important;}
+#example {height:1800px  !important; clear:both !important; position:relative !important; overflow:auto !important;}
+#slides {height:1800px  !important; clear:both !important; position:relative !important; overflow:auto !important;}
+.slides_container {height:1800px  !important; clear:both !important; position:relative !important; overflow:auto !important;}
+.slide {display:block !important; position:relative !important; margin:50px 0; width:50% !important; }
+.slide p {width:70% !important;}
+.pagination {display:none;}
+.ac-container {margin-top:50px;}
+
+
+/* textos */
+
+#top, #menu2texto, #barra_lateral, #enlaces {
+	display:none;
+	}
+	
+#menu2texto {
+	height:100px !important;
+	}
+
+/* PIE DE PAGINA */	
+.pie_todo #pie {
+	display:none;
+	}
+	
+#pie_contacto {
+	height:auto;
+	margin:50px auto 0 auto;
+	text-align:center;
+	border-top:#333 1px dotted;
+	padding-top:15px;
+	}
+#pie_contacto .texto_pie {display:inline;}
+#pie_contacto strong {font-weight:bold; text-decoration:none; font-size:13px; display:block; text-align:center; margin-bottom:5px;}
+#pie_contacto p {font-size:12px !important; font-weight:normal; display:inline;}
+#pie_contacto ul {display:none;}
+
+
+
+
+/* ############################### */
+.combo {
+	display:none;
+	}
+	
+.menu_contexto {
+	display:none;
+	}
+	
+.volver_texto {
+	display:none !important;
+	}
+	
+#contenido_principal {
+	margin:0 auto !important; 
+	width:97% !important; 
+	max-width:none !important; 
+	padding:2% !important;
+	border:none !important;
+	}
+
+h2, h3, {
+	font-size:12pt !important;
+	}
+
+h4, h5, h6 {
+	font-size:10pt !important;
+	}
+
+a {
+	font-size:10pt !important;
+	color:#333 !important;
+	}
+
+p {
+	font-size:10pt !important;
+	}
+
+#redes_sociales_texto {
+	width:97% !important;
+	}
+
+table td {border:#666 1px solid;}
+
+/* niños */	
+
+.menu_lateral_ninos {
+	display:none;
+	}
+
+.volver {
+	display:none !important;
+	}
+
+#texto_ninos {
+	width:97% !important;
+	margin:0 auto !important;
+	height:auto !important;
+	}
+
+#contenido_otros_ninos {
+	background:none !important;
+	padding:2% !important;
+	height:auto !important;
+	}
+
+img {
+	width: 15% !important; 
+	float:left;
+	margin:0 10px 0 0;
+	}
+
+.clear {
+	clear:both;
+	} 
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> cierre CSS IMPRESION */

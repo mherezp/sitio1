@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://www.kizoa.com/embed-58396887-P299207820o2l999999 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Movie Maker</title>
+        
+        <script src="./jquery.min(1).js" type="text/javascript"></script>
+        <!--<script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js" type="text/javascript"></script>-->
+        <script src="./swfobject.js" type="text/javascript"></script>
+        <style type="text/css">
+            
+            html {
+                overflow: hidden;
+            }
+
+            body {
+                background-color: #000000;
+                color: #FFFFFF;
+                font: 12px Arial,sans-serif;
+                height: 100%;
+                overflow: hidden;
+                position: absolute;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }   
+            
+            #player {
+                height:100%;
+            }
+            video {
+                height: 100%;
+                width: 100%;
+            }
+  
+        </style>
+        <script type="text/javascript">
+            $(function() {
+                if (swfobject.hasFlashPlayerVersion('9')) {
+                    var flashvars = {
+                            fmode:"5",
+                            did:"58396887",
+                            kc:"P299207820",
+                            hk: "1",loop:999999};
+                    var params = {
+                            quality:"high",
+                            wmode:"direct",
+                            allowscriptaccess:"always",
+                            loop:"true",
+                            codebase:"//pf.kizoa.com/",
+                            base:"//pf.kizoa.com/",
+                            allowfullscreen:"true"
+                    };
+                    var attributes = {
+                            id:"sflite",
+                            name:"sflite",
+                            align:"middle"
+                    };
+                    swfobject.embedSWF("//app.kizoa.com/sfl.swf", "player", "100%", "100%", "9.0.0", "/js/swfobject/expressInstall.js", flashvars, params, attributes);
+
+                }
+                else {
+                   $("#player").html(
+                        "<video id='slideshow' controls loop poster='https://s0.kizoa.com/i-Contact/ImageDisplayServlet?version=thumb&id=2005816221&c=0&photoKeyCode=9598074' >" +
+                            "<source src='http://nas5.kizoa.com:1935/mobile/mp4:club/583/96/58396887_7283438.mp4/playlist.m3u8' type='video/mp4'>" +
+                        "</video>"
+                    );
+                    
+                    var video = document.getElementById('player');
+                    video.addEventListener('click',function() {
+                      video.play();
+                    }, false);
+                }
+            });
+        </script>
+    <style type="text/css" media="screen">#player {visibility:hidden}</style></head>
+    <body>
+        <object id="sflite" name="sflite" align="middle" width="100%" height="100%" type="application/x-shockwave-flash" data="./sfl.swf"><param name="quality" value="high"><param name="wmode" value="direct"><param name="allowscriptaccess" value="always"><param name="loop" value="true"><param name="codebase" value="//pf.kizoa.com/"><param name="base" value="//pf.kizoa.com/"><param name="allowfullscreen" value="true"><param name="flashvars" value="fmode=5&amp;did=58396887&amp;kc=P299207820&amp;hk=1&amp;loop=999999"></object>
+    
+
+</body></html>
